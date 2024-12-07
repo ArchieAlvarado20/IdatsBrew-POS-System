@@ -1,0 +1,175 @@
+.html {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.navbar {
+}
+.main-content {
+}
+.sales-container {
+  padding: 0 25px;
+  margin-top: 30px;
+}
+
+.date-clock {
+  display: flex;
+}
+.sales-title {
+  flex: 7;
+  color: red;
+}
+.date {
+  text-align: end;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+.clock {
+  margin-left: 10px;
+  color: red;
+}
+@media screen and (max-width: 1345px) {
+  .html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .container-fluid {
+    overflow: hidden;
+  }
+  .critical-title {
+    font-size: 13px;
+  }
+  .sales-title {
+    flex: 6;
+  }
+}
+@media screen and (max-width: 1270px) {
+  .container-fluid {
+    overflow: hidden;
+  }
+  .cashier-title {
+    font-size: 15px;
+    color: red;
+  }
+  .casheir-card {
+    height: 10px;
+  }
+  .top-selling {
+    width: 350px;
+  }
+  .critical-title {
+    font-size: 15px;
+    text-align: left;
+    left: 0;
+    color: red;
+  }
+  .product-row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1232px) {
+  .cashier-title {
+    font-size: 13px;
+    color: red;
+  }
+  .cashier-card {
+    height: 107px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .stocks-critical {
+    margin: 20px 0;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .search {
+    display: none;
+  }
+  .sales-title {
+    flex: 2;
+  }
+}
+
+@media screen and (max-width: 676px) {
+  .sales-title {
+    flex: 2;
+  }
+}
+@media screen and (max-width: 575px) {
+  .full-stocks {
+    margin-top: 20px;
+  }
+  .user:nth-child(2) {
+    margin-top: 20px;
+  }
+  .clock {
+    display: none;
+  }
+}
+@media screen and (max-width: 460px) {
+  .sales-title {
+    flex: 1;
+  }
+  .clock {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .clock {
+    display: none;
+  }
+  .product-line {
+    width: 360px;
+    display: flex;
+  }
+  .top-selling {
+    width: 360px;
+  }
+  .edit {
+    display: none;
+  }
+  .bar {
+    left: 10px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .product-line {
+    width: 330px;
+    display: flex;
+  }
+  .top-selling {
+    width: 330px;
+  }
+  .navbar {
+    width: 370px;
+  }
+  .logout {
+    width: 200px;
+  }
+  .date {
+    display: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  .product-line {
+    width: 290px;
+    display: flex;
+  }
+  .top-selling {
+    width: 290px;
+  }
+  .navbar {
+    width: 320px;
+  }
+}
